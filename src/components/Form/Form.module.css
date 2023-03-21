@@ -1,0 +1,67 @@
+.container {
+  margin: 2.5rem 0;
+}
+
+.h3 {
+  color: #ffffff;
+  font-family: var(--fonte-titulo);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  text-transform: none;
+}
+
+.form {
+  margin: 0 30rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.075rem;
+  font-family: var(--fonte-texto);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  margin-bottom: 1.7rem;
+}
+
+.form select {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  margin-bottom: 1.7rem;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+.form button {
+  padding: 1rem;
+  background-color: var(--roxo);
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0px #444444;
+  font-weight: 700;
+  font-family: var(--fonte-texto);
+  font-size: 18px;
+  display: inline-block;
+  border: none;
+}
+
+.form button:hover {
+  background-color: #394097;
+  cursor: pointer;
+}

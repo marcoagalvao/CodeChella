@@ -1,0 +1,15 @@
+.h3{
+    color: #FFFFFF;
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.container{
+    margin-bottom: 4rem;
+}

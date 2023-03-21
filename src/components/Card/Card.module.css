@@ -1,0 +1,29 @@
+.grid__container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 60px 120px;
+}
+
+.grid__item{
+    text-align: center;
+    padding: 40px;
+}
+
+.h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: var(--fonte-texto);
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 2rem;
+}
+
+.p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    padding: 0 200px;
+    margin-bottom: 2rem;
+}

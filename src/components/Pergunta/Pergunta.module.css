@@ -1,0 +1,28 @@
+.container__pergunta{
+    margin: 0 20rem 2rem 20rem;
+}
+
+.h6{
+    background-color: var(--roxo);
+    padding: 1rem;
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.p{
+    background-color: #C8DEEF;
+    padding: 1rem;
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #444444;
+    margin-bottom: 1.5rem;
+}
+
+.h6:hover{
+    cursor: pointer;
+}

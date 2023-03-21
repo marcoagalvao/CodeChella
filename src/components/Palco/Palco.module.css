@@ -1,0 +1,51 @@
+.grid__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 60px 140px;
+}
+
+.grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.legenda__lista {
+  padding-left: 4rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.legenda__item {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.legenda__item p {
+  font-family: var(--fonte-texto);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-left: 0.5rem;
+}
+
+.legenda__item img{ 
+    width: 32px;
+    height: 32px;
+}
+
+.legenda__item h6 {
+  font-family: var(--fonte-texto);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}

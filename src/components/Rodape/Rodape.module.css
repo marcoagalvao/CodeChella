@@ -1,0 +1,26 @@
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--roxo);
+    padding: 32px 120px;
+    gap: 50rem;
+}
+
+.container__left{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 0.5rem;
+}
+
+.container__right{
+    color: #FFFFFF;
+}
+
+.p {
+    font-family: var(--fonte-texto);
+    font-family: 500;
+    font-size: 16px;
+    line-height: 40px;
+}

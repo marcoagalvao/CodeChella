@@ -1,0 +1,55 @@
+.h5{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 4rem 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 100px 4rem 100px;
+}
+
+.cards{
+    width: 33%;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.cards__diferente{
+    width: 33%;
+    text-align: center;
+    align-self: flex-end;
+    padding: 0 30px;
+}
+
+.h6{
+   font-family: var(--fonte-texto);
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 37px;
+   text-align: center; 
+   color: #FFFFFF;
+   margin: 1rem 0;
+}
+
+.p{
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.img{
+    width: 380px;
+    height: 240px;
+    text-align: center;
+}
