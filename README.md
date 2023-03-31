@@ -11,11 +11,11 @@ Node.js v10.0.0 ou superior
 NPM v6.0.0 ou superior
 
 ## Instalação
-Clone o repositório para sua máquina local.
-Navegue até a pasta do projeto.
-Rode o comando npm install para instalar as dependências do projeto.
-Execute o comando npm start para iniciar o servidor de desenvolvimento.
-Acesse a aplicação em http://localhost:3000.
+1. Clone o repositório para sua máquina local.
+2. Navegue até a pasta do projeto.
+3. Rode o comando npm install para instalar as dependências do projeto.
+4. Execute o comando npm start para iniciar o servidor de desenvolvimento.
+5. Acesse a aplicação em http://localhost:3000.
 
 ## Funcionalidades
 Exibição de ingresso: Os usuários após preencher o formulário de compra são redirecionados para uma página com seu ingresso.
