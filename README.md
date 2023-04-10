@@ -1,7 +1,6 @@
 # CodeChella
 Projeto feito em uma iniciativa da Alura de treinar seus alunos. Foram 4 semanas de desenvolvimento, simulando realmente um estágio ou trabalho.
 O projeto consiste em um site de um evento musical, onde é apresentado os artistas, experiências do evento, lugares disponíveis, um FAQ e uma aba para a compra de ingressos.
-**Projeto ainda não está responsivo, ainda em desenvolvimento nessa parte**
 
 ## Tecnologias Utilizadas
 React
