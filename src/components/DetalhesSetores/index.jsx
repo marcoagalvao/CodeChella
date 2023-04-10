@@ -14,7 +14,7 @@ export default function DetalheSetores() {
             <h6 className={styles.h6}>Pista</h6>
             <p className={styles.p}>Pista convencional, atendida pelos bares e banheiros das laterais do estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma grade.</p>
         </div>
-        <div className={styles.cards__diferente}>
+        <div className={styles.cards}>
             <img className={styles.img} src={pistaPremium} alt="Pessoas em frente ao palco de um show" />
             <h6 className={styles.h6}>Pista Premium</h6>
             <p className={styles.p}>Pista mais próxima do palco, com acesso muito próximo a banheiros e bares num raio de 100m. Todas as pessoas idosas e/ou com deficiência têm direito a acesso gratuito a essa área.</p>

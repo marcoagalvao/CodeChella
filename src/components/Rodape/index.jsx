@@ -10,24 +10,26 @@ import { Link } from "react-router-dom";
 export default function Rodape() {
   return (
     <footer className={styles.rodape}>
-      <div>
+      <div className={styles.infos}>
         <Link to="./">
-          <img src={logo} alt="Logo do CodeChella" />
+          <img className={styles.logo} src={logo} alt="Logo do CodeChella" />
         </Link>
         <div className={styles.container__left}>
           <p>Acesse nossas redes:</p>
-          <Link>
-            <img src={insta} alt="Logo do instagram" />
-          </Link>
-          <Link>
-            <img src={twitch} alt="Logo da twitch" />
-          </Link>
-          <Link>
-            <img src={wpp} alt="Logo do WhatsApp" />
-          </Link>
-          <Link>
-            <img src={twitter} alt="Logo do twitter" />
-          </Link>
+          <div className={styles.redes}>
+            <Link>
+              <img src={insta} alt="Logo do instagram" />
+            </Link>
+            <Link>
+              <img src={twitch} alt="Logo da twitch" />
+            </Link>
+            <Link>
+              <img src={wpp} alt="Logo do WhatsApp" />
+            </Link>
+            <Link>
+              <img src={twitter} alt="Logo do twitter" />
+            </Link>
+          </div>
         </div>
       </div>
       <div className={styles.container__right}>

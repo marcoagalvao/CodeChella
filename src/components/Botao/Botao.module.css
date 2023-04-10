@@ -8,7 +8,7 @@
     font-weight: 700;
     font-family: var(--fonte-texto);
     font-size: 18px;
-    display: inline-block;
+    width: 300px;
 }
 
 .botao:hover{

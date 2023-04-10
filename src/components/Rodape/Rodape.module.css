@@ -1,10 +1,14 @@
 .rodape{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--roxo);
-    padding: 32px 120px;
-    gap: 50rem;
+    padding: 3rem 5rem;
+}
+
+.logo{
+  width: 307px;
+  height: 84px;
 }
 
 .container__left{
@@ -14,7 +18,14 @@
     gap: 0.5rem;
 }
 
+.redes{
+  display: flex;
+  gap: 0.5rem;
+}
+
 .container__right{
+  display: flex;
+  flex-direction: column;
     color: #FFFFFF;
 }
 
@@ -24,3 +35,58 @@
     font-size: 16px;
     line-height: 40px;
 }
+
+@media (max-width: 768px) {
+  .rodape{
+    flex-direction: column;
+    padding: 1.5rem 0;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .logo{
+    width: 100%;
+    height: auto;
+  }
+  .container__left{
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .container__right{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .redes{
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+  .rodape{
+    flex-direction: column;
+    padding: 1.5rem 0;
+    gap: 1rem;
+  }
+  .infos{
+    text-align: center;
+  }
+  .logo{
+    width: 234px;
+    height: 64px;
+  }
+  .container__left{
+    flex-direction: row;
+  }
+  .container__right{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .redes{
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+  

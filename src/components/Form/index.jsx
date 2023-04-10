@@ -10,7 +10,9 @@ export default function Form() {
   return (
     <div className={styles.container}>
       <h3 className={styles.h3}>Preencha o formulário a seguir:</h3>
+
       <form className={styles.form}>
+        
         <label for="nome">Nome Completo:</label>
         <input
           onChange={(evento) => setNome(evento.target.value)}
@@ -21,6 +23,7 @@ export default function Form() {
           value={nome}
           required
         />
+
         <label for="email">Email:</label>
         <input className={styles.input} type="email" name="email" id="email" required/>
 
@@ -34,6 +37,7 @@ export default function Form() {
             Meia entrada
           </option>
         </select>
+
         <label for="nascimento">Data de nascimento:</label>
         <input type="date" name="nome" id="nascimento" required/>
 

@@ -49,3 +49,32 @@
   color: #ffffff;
   margin-bottom: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .grid__container{
+    grid-template-columns: auto;
+    padding: 0;
+  }
+
+  .grid__item img{
+    width: 100%;
+    height: auto;
+  }
+
+  .legenda__item img{ 
+    width: 32px;
+    height: 32px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .grid__container{
+   grid-template-columns: auto;
+   padding: 2.5rem 5rem; 
+  }
+
+  .grid__item{
+    margin-top: 2rem;
+    align-items: center;
+  }
+}

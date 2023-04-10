@@ -1,9 +1,42 @@
 .cabecalho{
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--roxo);
-    padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--roxo);
+  padding: 2rem 5rem;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin-left: 1rem;
+}
+
+/* Define estilos diferentes para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    .cabecalho {
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .nav{
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1439px) {
+    .cabecalho{
+      flex-direction: column;
+      padding: 2rem 4rem;
+    }
+
+    .nav{
+      margin-top: 1.5rem;
+    }
+  }

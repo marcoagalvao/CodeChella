@@ -5,3 +5,17 @@
     background-size: cover;
     background-position: center;
 }
+
+/* Estilos para telas com largura menor ou igual a 768px */
+@media (max-width: 768px) {
+    .banner {
+      height: 200px;
+    }
+  }
+  
+  /* Estilos para telas com largura menor ou igual a 480px */
+  @media (max-width: 480px) {
+    .banner {
+      height: 150px;
+    }
+  }

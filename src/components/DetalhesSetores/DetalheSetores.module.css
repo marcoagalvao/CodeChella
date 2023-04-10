@@ -1,32 +1,27 @@
+.detalhes__container{
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
 .h5{
-    display: flex;
-    justify-content: center;
     font-family: var(--fonte-texto);
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     align-items: center;
+    text-align: center;
     color: #FFFFFF;
-    margin: 4rem 0;
+    margin-bottom: 4rem;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    margin: 0 100px 4rem 100px;
 }
 
 .cards{
-    width: 33%;
+    padding: 0 2rem;
     text-align: center;
-    padding: 0 90px;
-}
-
-.cards__diferente{
-    width: 33%;
-    text-align: center;
-    align-self: flex-end;
-    padding: 0 30px;
 }
 
 .h6{
@@ -46,10 +41,59 @@
     line-height: 40px;
     text-align: center;
     color: #FFFFFF;
+    width: 380px;
 }
 
 .img{
     width: 380px;
     height: 240px;
-    text-align: center;
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .cards{
+        width: 100%;
+        padding: 0 1rem;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .img{
+        width: 100%;
+        height: auto;
+    }
+
+    .p{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .cards{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .img{
+        width: 380px;
+        height: 240px;
+    }
+
+    .p{
+        width: 100%;
+    }
 }
